@@ -7,3 +7,7 @@ numpy
 requests
 torch
 gunicorn 
+sqlalchemy
+psycopg2
+flask_sqlalchemy
+datetime
