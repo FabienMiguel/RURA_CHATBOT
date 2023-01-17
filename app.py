@@ -7,14 +7,14 @@ import requests
 import json
 import detectlanguage
 from detectlanguage import simple_detect # import the translator
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy # this library help us to create online database.
 import datetime
 from chat import chatBot
 chatBot = chatBot()
 #import nltk
 #nltk.download('punkt')
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://admin:IzowlggepwXvXZqyhZh3tGxCvTLnuD2q@dpg-cf35u01a6gdpa6rl5plg-a.oregon-postgres.render.com/chatbotdb_thu5"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:IzowlggepwXvXZqyhZh3tGxCvTLnuD2q@dpg-cf35u01a6gdpa6rl5plg-a.oregon-postgres.render.com/chatbotdb_thu5"
 db = SQLAlchemy(app)
 CORS(app)
 ## Database
