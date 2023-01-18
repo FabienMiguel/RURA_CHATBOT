@@ -102,6 +102,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * Python
 * Flask
+* Flask_ngrok
+* Flask_Cors
 * Pytorch
 * Numpy
 * Psycopg2
@@ -109,6 +111,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * Flask SQL AIchemy
 * Language Detect/ Detect lang
 * NLTK
+* Requests
+* DateTime
 
 
 
